@@ -1,0 +1,34 @@
+{
+  "name": "elm-in-react-redux-immutable",
+  "version": "1.0.0",
+  "description": "The Elm Architecture, but built with React, Redux, and ImmutableJS",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --hot --progress --colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Elm",
+    "React",
+    "Redux",
+    "ImmutableJS",
+    "Convergent",
+    "Evolution"
+  ],
+  "author": "Ken Kubiak",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "immutable": "^3.8.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.5.0"
+  }
+}

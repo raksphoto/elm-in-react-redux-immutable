@@ -4,9 +4,9 @@ let Redux = require('redux')
 import Im from 'immutable'
 import { Provider, connect } from 'react-redux'
 
-let model = Redux.createStore(update)
-
 let init = Im.Map({ value: 5 })
+
+let model = Redux.createStore(update)
 
 function update(state = init, action = {}) {
     let value = state.get('value')
